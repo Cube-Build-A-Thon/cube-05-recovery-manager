@@ -1,11 +1,11 @@
-# <your-github-username> · Recovery Manager
+# samad001z · Recovery Manager
 
-Copy this file to `submissions/<your-github-username>/README.md` and keep it as your index.
+Copy this file to `submissions/samad001z/README.md` and keep it as your index.
 
 ## Expected layout
 
 ```
-submissions/<your-github-username>/
+submissions/samad001z/
 ├── README.md            ← this file: who you are, links to everything below
 ├── 01-customer-letter.md
 ├── 02-prfaq.md          ← include the questions you'd rather not answer
@@ -22,7 +22,7 @@ submissions/<your-github-username>/
 
 | Face | Deliverable | Status |
 |---|---|---|
-| 1 | Customer letter, PR/FAQ, one-pager | ☐ |
+| 1 | Customer letter, PR/FAQ, one-pager | ☑ first draft |
 | 2 | CLAUDE.md | ☐ |
 | 3 | Headless agent on fixtures | ☐ |
 | 4 | Eval report | ☐ |
@@ -31,4 +31,4 @@ submissions/<your-github-username>/
 
 ## Kill condition
 
-_State it here in one line, once face 1 is done._
+K1: if claim precision on 50 held-out charges is below 90% after two fix rounds, stop drafting claims. (K2 and K3 in 03-one-pager.md.)
