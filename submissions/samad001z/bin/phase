@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# usage: bin/phase P6   (runs locally)
+case "$1" in
+  P6|P7|W1)   MODEL=opus;     EFFORT=high   ;;
+  P2|P5|P9A)  MODEL=opus;     EFFORT=medium ;;
+  *)          MODEL=opusplan; EFFORT=medium ;;
+esac
+echo "Starting $1 with model=$MODEL effort=$EFFORT"
+exec claude --model "$MODEL" --fallback-model sonnet --effort "$EFFORT" "/phase $1"

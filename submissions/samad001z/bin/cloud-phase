@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# usage: bin/cloud-phase P2   (runs on Anthropic cloud, uses the $100 credit)
+exec claude --cloud "Run /phase $1. Follow CLAUDE.md strictly. Stop after presenting the plan and wait for approval."
